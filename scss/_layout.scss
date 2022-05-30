@@ -11,12 +11,12 @@
 }
 
 .grid-container {
-  padding-inline: 25px;
+  padding-inline: 10px;
   width: min(500px, 100%);
   display: grid;
   grid-template-columns:
-    minmax(25px, min(50px, 8vw)) repeat(7, 1fr)
-    minmax(25px, min(50px, 8vw));
+    minmax(15px, 5vw) repeat(7, 1fr)
+    minmax(15px, 5vw);
 }
 
 .header {
