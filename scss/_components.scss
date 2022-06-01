@@ -38,8 +38,14 @@
 
     background-color: $Soft-red;
 
+    cursor: pointer;
+
     &.accent {
       background-color: $Cyan;
+
+      &:hover {
+        background-color: lighten($color: $Cyan, $amount: 10%);
+      }
     }
 
     &::after {
@@ -62,6 +68,8 @@
     }
 
     &:hover {
+      background-color: lighten($color: $Soft-red, $amount: 10%);
+
       &::after {
         display: inline;
       }
