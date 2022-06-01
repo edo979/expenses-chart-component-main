@@ -14,8 +14,21 @@
 
   background-color: $Very-pale-orange;
 
+  &_amount-day {
+    color: $Medium-brown;
+  }
+
   &_end-line {
     height: 2px;
     background-color: $Cream;
+  }
+}
+
+.last-month {
+  --align: end;
+  align-self: end;
+
+  h2 {
+    order: 1;
   }
 }

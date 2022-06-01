@@ -11,10 +11,12 @@
   justify-content: var(--justify, space-between);
   align-items: var(--align, center);
   gap: var(--gap, 1rem);
-}
 
-.flex-column {
-  --direction: column;
+  &--column {
+    --direction: column;
+    --align: start;
+    --gap: 0;
+  }
 }
 
 .grid-container {
