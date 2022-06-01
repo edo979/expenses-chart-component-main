@@ -1,0 +1,21 @@
+.main-container {
+  background-color: $Cream;
+}
+
+.header {
+  border-radius: $border-radius;
+
+  background-color: $Soft-red;
+}
+
+.chart {
+  margin-top: 1rem;
+  border-radius: $border-radius;
+
+  background-color: $Very-pale-orange;
+
+  &_end-line {
+    height: 2px;
+    background-color: $Cream;
+  }
+}
