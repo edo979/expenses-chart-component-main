@@ -19,26 +19,9 @@
   }
 }
 
-.grid-container {
+.container {
   width: min(500px, 92vw);
-  display: grid;
-  grid-template-columns:
-    minmax(15px, 5vw) repeat(7, 1fr)
-    minmax(15px, 5vw);
-}
-
-.header {
-  .flex {
-    grid-column: 2 / -2;
-  }
-}
-
-.chart {
-  grid-template-rows: auto 150px auto auto;
-
-  > * {
-    grid-column: 2 / -2;
-  }
+  padding-inline: max(15px, 5vw);
 }
 
 .footer {
