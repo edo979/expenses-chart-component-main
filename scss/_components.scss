@@ -35,6 +35,10 @@
     border-radius: $border-radius / 2;
 
     background-color: $Soft-red;
+
+    &.accent {
+      background-color: $Cyan;
+    }
   }
 
   &_amount-day {
