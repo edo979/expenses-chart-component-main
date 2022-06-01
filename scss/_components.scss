@@ -20,7 +20,7 @@
   }
 
   &_bar {
-    height: 150px;
+    height: 180px;
     width: 100%;
 
     display: flex;
@@ -32,7 +32,6 @@
   &_amount {
     position: relative;
 
-    height: 60%;
     width: 100%;
     border-radius: calc(var(--b-radius) / 3);
 
