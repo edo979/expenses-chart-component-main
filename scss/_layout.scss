@@ -1,5 +1,6 @@
 :root {
   --y-spacing: 1.15rem;
+  --b-radius: 10px;
 }
 
 .main-container {
@@ -25,7 +26,7 @@
 
 .container {
   width: min(540px, 92vw);
-  padding-inline: max(15px, 5vw);
+  padding-inline: max(15px, var(--inline-p, 5vw));
   padding-block: var(--y-spacing);
 }
 

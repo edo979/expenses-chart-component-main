@@ -3,19 +3,20 @@
 }
 
 .header {
-  border-radius: $border-radius;
+  border-radius: var(--b-radius);
 
   background-color: $Soft-red;
 }
 
 .chart {
   margin-top: 1rem;
-  border-radius: $border-radius;
+  border-radius: var(--b-radius);
 
   background-color: $Very-pale-orange;
 
   &_bars {
     --gap: 0.65rem;
+    margin-top: 3rem;
   }
 
   &_bar {
@@ -33,7 +34,7 @@
 
     height: 60%;
     width: 100%;
-    border-radius: $border-radius / 2;
+    border-radius: calc(var(--b-radius) / 3);
 
     background-color: $Soft-red;
 
@@ -52,9 +53,9 @@
       width: max-content;
       height: max-content;
       padding: 0.25rem;
-      border-radius: $border-radius / 3;
+      border-radius: calc(var(--b-radius) / 4);
 
-      font-size: 0.6rem;
+      font-size: var(--fs-200);
       color: $Very-pale-orange;
       font-family: inherit;
       background-color: $Dark-brown;
