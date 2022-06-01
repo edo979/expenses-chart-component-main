@@ -30,6 +30,8 @@
   }
 
   &_amount {
+    position: relative;
+
     height: 60%;
     width: 100%;
     border-radius: $border-radius / 2;
@@ -38,6 +40,31 @@
 
     &.accent {
       background-color: $Cyan;
+    }
+
+    &::after {
+      content: var(--content, '0');
+      display: none;
+
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -1.6rem;
+      width: max-content;
+      height: max-content;
+      padding: 0.25rem;
+      border-radius: $border-radius / 3;
+
+      font-size: 0.6rem;
+      color: $Very-pale-orange;
+      font-family: inherit;
+      background-color: $Dark-brown;
+    }
+
+    &:hover {
+      &::after {
+        display: inline;
+      }
     }
   }
 
