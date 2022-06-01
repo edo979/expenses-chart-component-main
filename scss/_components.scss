@@ -14,6 +14,28 @@
 
   background-color: $Very-pale-orange;
 
+  &_bars {
+    --gap: 0.65rem;
+  }
+
+  &_bar {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+
+  &_amount {
+    height: 60%;
+    width: 100%;
+    border-radius: $border-radius / 2;
+
+    background-color: $Soft-red;
+  }
+
   &_amount-day {
     color: $Medium-brown;
     font-size: var(--fs-300);
