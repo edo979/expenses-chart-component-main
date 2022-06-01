@@ -1,0 +1,21 @@
+@media (min-width: 428px) {
+  :root {
+    --y-spacing: 1.75rem;
+    --b-radius: 20px;
+    --inline-p: 3vw;
+
+    --fs-900: 2.55rem;
+    --fs-800: 1.75rem;
+    --fs-500: 1.01rem;
+    --fs-400: 1rem;
+    --fs-300: 0.9rem;
+    --fs-200: 0.85rem;
+  }
+
+  .chart {
+    &_bars {
+      margin-top: 3.5rem;
+      --gap: 0.9rem;
+    }
+  }
+}
