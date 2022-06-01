@@ -16,11 +16,10 @@
 
   &_bars {
     --gap: 0.65rem;
-    height: 170px;
   }
 
   &_bar {
-    height: 100%;
+    height: 150px;
     width: 100%;
 
     display: flex;
@@ -69,6 +68,7 @@
   }
 
   &_amount-day {
+    margin-top: 0.45rem;
     color: $Medium-brown;
     font-size: var(--fs-300);
   }
